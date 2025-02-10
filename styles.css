@@ -22,6 +22,10 @@ body {
     align-items: center;
 }
 
+.header-bottom-left {
+    max-width: 400px;
+}
+
 ul {
     display: flex;
     list-style: none;
