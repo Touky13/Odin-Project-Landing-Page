@@ -59,3 +59,9 @@ button {
     font-size: 18px;
     color: #F9FAF8;
 }
+
+img {
+    flex-shrink: 0;
+    width: 500px;
+    height: auto;
+}
