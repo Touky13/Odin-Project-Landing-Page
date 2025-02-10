@@ -13,17 +13,19 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
+    margin: 8px 200px 64px;
 }
 
 .header-bottom {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    margin: 8px 200px 64px;
 }
 
 .header-bottom-left {
-    max-width: 400px;
+   flex-grow: 1;
 }
 
 ul {
@@ -31,6 +33,7 @@ ul {
     list-style: none;
     gap: 12px;
     padding: 0px;
+    margin: 0px;
 }
 
 a {
@@ -47,12 +50,14 @@ p {
 h5 {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 h3 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 button {
