@@ -11,3 +11,7 @@ body {
 .header-top {
     display: flex;
 }
+
+.header-bottom {
+    display: flex;
+}
