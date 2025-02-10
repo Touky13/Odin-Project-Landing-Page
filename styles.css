@@ -12,16 +12,21 @@ body {
 
 .header-top {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-bottom {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
     display: flex;
     list-style: none;
     gap: 12px;
+    padding: 0px;
 }
 
 a {
