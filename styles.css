@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -25,7 +29,8 @@ body {
 }
 
 .header-bottom-left {
-   flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -45,15 +50,16 @@ a {
 p {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 8px 0px;
 }
 
-h5 {
+h1 {
     font-size: 24px;
     color: #F9FAF8;
     margin: 0px;
 }
 
-h3 {
+h2 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -65,12 +71,22 @@ button {
     border-radius: 8px;
     border: 0px;
     padding: 8px 24px;
+    width: 125px;
     font-size: 18px;
     color: #F9FAF8;
 }
 
 img {
-    flex-shrink: 0;
     width: 500px;
     height: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
