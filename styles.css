@@ -82,9 +82,8 @@ a {
 .infos {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 40px;
     padding: 8px 425px 75px;
-
 }
 
 .infos img {
@@ -95,6 +94,28 @@ a {
 }
 
 .subInfos {
-    width: 150px;
+    width: 175px;
     height: 150px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 75px 425px;
+
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;    flex-shrink: 0;
+    color: #1F2937;
+}
+
+.quoteAuthor {
+    align-self: flex-end;
+    font-size: 36px;
+    font-weight: 900;
 }
