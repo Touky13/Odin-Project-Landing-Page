@@ -111,7 +111,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 75px 425px;
+    padding: 75px 300px;
 
 }
 
@@ -126,4 +126,37 @@ a {
     margin: 0px;
     font-size: 36px;
     font-weight: 900;
+}
+
+.call {
+    padding: 75px 300px;
+}
+
+.callContainer {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.callContainerText {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.callContainerText p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.callContainer button {
+    align-self: center;
+    width: 100px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px 16px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
